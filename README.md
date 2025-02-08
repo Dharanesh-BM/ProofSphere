@@ -1,6 +1,6 @@
 # Proof Sphere  
 
-**Build a Web3 dApp on Arbitrum using zkVerify integration for zero-knowledge proof verification and Arbitrum Stylus smart contracts.**  
+**A Web3 dApp on Arbitrum using zkVerify integration for zero-knowledge proof verification and Arbitrum Stylus smart contracts.**  
 
 ## 🚀 Project Overview  
 
