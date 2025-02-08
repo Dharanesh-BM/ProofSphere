@@ -46,3 +46,48 @@ Proof Sphere is a Web3 dApp that enables users to submit, verify, and track zero
 git clone https://github.com/your-repo/proof-sphere.git
 cd proof-sphere
 ```
+### 2️⃣ Install Dependencies
+Frontend
+```sh
+cd frontend
+npm install
+```
+Backend
+```sh
+cd backend
+npm install
+```
+### 3️⃣ Configure Environment Variables
+.env.example to .env in both frontend/ and backend/, then fill in the necessary values:
+```sh
+NEXT_PUBLIC_ARBITRUM_RPC_URL=<Your Arbitrum Testnet RPC>
+NEXT_PUBLIC_VERIFIER_CONTRACT_ADDRESS=<Deployed Contract Address>
+PRIVATE_KEY=<Your Wallet Private Key>
+NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID=<WalletConnect ID>
+```
+
+#### 🔗 Smart Contract Deployment
+### 1️⃣ Compile the Contract
+```sh
+cd contracts
+cargo build
+```
+### 2️⃣ Deploy to Arbitrum Testnet
+```sh
+cargo stylus deploy
+```
+### 3️⃣ Verify Deployment
+Once deployed, update NEXT_PUBLIC_VERIFIER_CONTRACT_ADDRESS in your .env file.
+
+##### 🚀 Running the Project
+### 1️⃣ Start the Backend
+```sh
+cd backend
+npm start
+```
+### 2️⃣ Start the Frontend
+```sh
+cd frontend
+npm run dev
+```
+Your dApp should be running at http://localhost:3000 🚀
