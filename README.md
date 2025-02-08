@@ -16,9 +16,11 @@ Proof Sphere is a Web3 dApp that enables users to submit, verify, and track zero
 ✔ **Proof Submission & Verification** - Users can submit proofs and check their verification status.  
 ✔ **Wallet Integration** - Supports MetaMask and other wallets via Web3Modal.  
 ✔ **Rust-based Smart Contracts** - Uses Arbitrum Stylus for efficient proof verification.  
+✔ **zkVerify Integration** - Validates proofs before submitting to the blockchain.  
 ✔ **Modern UI** - Built with **Next.js, Tailwind CSS, and ShadCN components**.  
 ✔ **Workflow Automation** - Deploy smart contracts and frontend with **Hardhat, Vercel, and Docker**.  
 
+---
 
 ## 💻 Tech Stack  
 
