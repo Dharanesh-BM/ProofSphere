@@ -81,7 +81,7 @@ cargo stylus deploy
 ### 3️⃣ Verify Deployment
 Once deployed, update NEXT_PUBLIC_VERIFIER_CONTRACT_ADDRESS in your .env file.
 
-##### 🚀 Running the Project
+### 🚀 Running the Project
 ### 1️⃣ Start the Backend
 ```sh
 cd backend
