@@ -19,5 +19,30 @@ Proof Sphere is a Web3 dApp that enables users to submit, verify, and track zero
 ✔ **Modern UI** - Built with **Next.js, Tailwind CSS, and ShadCN components**.  
 ✔ **Workflow Automation** - Deploy smart contracts and frontend with **Hardhat, Vercel, and Docker**.  
 
-## 📂 Project Structure  
 
+## 💻 Tech Stack  
+
+| Layer       | Technologies Used |
+|------------|------------------|
+| **Frontend** | Next.js, Tailwind CSS, ShadCN, wagmi, Web3Modal |
+| **Backend**  | Node.js, Express.js, zkVerify API, Hardhat |
+| **Smart Contracts** | Rust (Arbitrum Stylus), Solidity Interfaces |
+| **Deployment** | Hardhat, Vercel, Docker |
+
+---
+
+## 🛠 Setup & Installation  
+
+### Prerequisites  
+
+- Node.js `>=16.x`  
+- Cargo & Rust installed (`rustup` for Arbitrum Stylus)  
+- MetaMask Wallet  
+- Arbitrum Testnet RPC URL  
+
+### 1️⃣ Clone the Repository  
+
+```sh
+git clone https://github.com/your-repo/proof-sphere.git
+cd proof-sphere
+```
