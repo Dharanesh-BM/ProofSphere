@@ -45,7 +45,7 @@ Proof Sphere is a Web3 dApp that enables users to submit, verify, and track zero
 ### 1️⃣ Clone the Repository  
 
 ```sh
-git clone [https://github.com/your-repo/proof-sphere.git](https://github.com/Dharanesh-BM/ProofSphere)
+git clone https://github.com/your-repo/proof-sphere.git
 cd proof-sphere
 ```
 ### 2️⃣ Install Dependencies
