@@ -29,7 +29,7 @@ Proof Sphere is a Web3 dApp that enables users to submit, verify, and track zero
 | **Frontend** | Next.js, Tailwind CSS, ShadCN, wagmi, Web3Modal |
 | **Backend**  | Node.js, Express.js, zkVerify API, Hardhat |
 | **Smart Contracts** | Rust (Arbitrum Stylus), Solidity Interfaces |
-| **Deployment** | Hardhat, Vercel, Docker |
+| **Deployment** | Hardhat, Netlify|
 
 ---
 
