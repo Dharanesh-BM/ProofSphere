@@ -1,13 +1,13 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { useWeb3Modal } from "@web3modal/wagmi/react";
+import { useWeb3Modal as useWeb3ModalWagmi } from "@web3modal/wagmi/react";
 import { useAccount } from "wagmi";
 import Link from "next/link";
 import { CircuitBoard } from "lucide-react";
 
 export function Navbar() {
-  const { open } = useWeb3Modal();
+  const { open } = useWeb3ModalWagmi();
   const { address, isConnected } = useAccount();
 
   return (
@@ -16,7 +16,7 @@ export function Navbar() {
         <div className="mr-4 flex">
           <Link href="/" className="mr-6 flex items-center space-x-2">
             <CircuitBoard className="h-6 w-6" />
-            <span className="font-bold">ProfitSphere</span>
+            <span className="font-bold">ProofSphere</span>
           </Link>
           <nav className="flex items-center space-x-6 text-sm font-medium">
             <Link href="/submit" className="transition-colors hover:text-foreground/80">
